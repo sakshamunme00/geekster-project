@@ -1,0 +1,17 @@
+<%- include("partials/header"); -%>
+
+<%  store.forEach(function(obj){ %>
+    <h1><%=obj.location%></h1>
+    <h2><%=obj.temp%></h2>
+    <p><%=obj.description%></p>
+    <%  })%>
+    <a href="/">
+        <button type="button" class="btn btn-primary" name="button">
+         Home
+        </button>
+    </a>
+    <a href="/input">
+        <button type="button" class="btn btn-primary" name="button">
+         Input
+        </button>
+    </a>
