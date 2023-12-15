@@ -1,9 +1,9 @@
 <%- include("partials/header"); -%>
 
 <%  store.forEach(function(obj){ %>
-    <h1><%=obj.location%></h1>
-    <h2><%=obj.temp%></h2>
-    <p><%=obj.description%></p>
+    <h1><%=obj.loc%></h1>
+    <h2><%=obj.poly%></h2>
+   
     <%  })%>
     <a href="/">
         <button type="button" class="btn btn-primary" name="button">
